@@ -10,22 +10,25 @@ this version has bug to fix
 
 ### etcd
 
-  >sudo snap install etcd
+  >./etcd.install.sh
+  
+### compile
+
+  >protoc --proto_path=proto --go_out=greeter --micro_out=greeter proto/*.proto
 
 ## Run
 
-### compiler
+### etcd
 
-1. cd proto
-1. project/path/proto$ > protoc --go_out=. --micro_out=. *.proto
+1. etcd
 
 ### server
 
-1. project/path$ > MICRO_REGISTRY=etcd go run cmd/server/main.go
+1. project/path$ > MICRO_REGISTRY=etcd go run micro/server/main.go
 
 ### client
 
-1. project/path$ > MICRO_REGISTRY=etcd go run cmd/client/main.go
+1. project/path$ > MICRO_REGISTRY=etcd go run micro/client/main.go
 
 
 ### known issue

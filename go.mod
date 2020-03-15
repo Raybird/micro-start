@@ -5,7 +5,7 @@ go 1.13
 require (
 	github.com/gin-gonic/gin v1.3.0
 	github.com/golang/protobuf v1.4.0-rc.4
-	github.com/micro/examples v0.2.0
+	github.com/micro/examples v0.2.0 // indirect
 	github.com/micro/go-micro/v2 v2.2.0
 	github.com/micro/protoc-gen-micro/v2 v2.0.0 // indirect
 	golang.org/x/net v0.0.0-20200301022130-244492dfa37a // indirect

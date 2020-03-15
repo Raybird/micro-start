@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	proto "github.com/Raybird/micro-start/proto"
+	proto "github.com/Raybird/micro-start/greeter"
 	"github.com/micro/go-micro/v2"
 )
 
